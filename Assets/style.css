@@ -1,0 +1,71 @@
+/* Universal Selector */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+header{
+top: 0;
+
+position: fixed;
+width: 100%;
+color: rgb(255, 255, 255);
+background-color: rgb(4, 105, 61);
+text-align: right;
+border-bottom: 5px solid rgb(134, 99, 99);
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    padding-top: 40px;
+
+}
+
+li {
+list-style-type: none;
+display: inline;
+margin: 7px;
+padding: 10px;
+}
+
+a {
+   color: white; 
+   text-decoration: none;
+}
+
+a:hover {
+     color: rgb(255, 211, 80);
+}
+
+
+.section-1 {
+background-color: bisque;
+color: rgb(98, 42, 42);
+height: 1000px;
+}
+
+.section-2 {
+    background-color: brown;
+    color: blanchedalmond;
+    padding-bottom: 30px;
+
+}
+
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: darkgreen;
+    color:white ;
+    border-top: 5px solid rgb(134, 99, 99);
+}
